@@ -1,1 +1,6 @@
-
+- What is the DOM (Document Object Model), and how does it power your web pages?
+     - a. DOM is what determines how a document is accessed and displayed based on the webpage and browser you have.  The DOM allows for documents to be broken down into smaller pieces that are part of a tree structure, which makes programming modifications easier.  A DOM powers the webpage allowing it to be customized and styling the document to the contents.
+- HTML, XML, XHTML—what sets them apart?
+    - b. HTML allows for the rendering of content and the structure of pages, but XML cannot render and can only label the information given.  XML is an easier coding language and is simplified allowing for easy availability, however, XHTML and HTML are varied not allowing for an ease of transfer due to updates and different standards.  HTML and XHTML are very similar however XHTML is more specific and will take longer to write, which makes the language harder to display successful pages.
+- What are the four essential elements every HTML page needs?
+    - c. The four main elements that HTML pages need are a DOCTYPE declaration at the top of the page, the root element that follows, the head element to create a header, and the body function to place the main structure of your page.
