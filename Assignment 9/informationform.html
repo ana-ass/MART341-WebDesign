@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-color: beige;}
+            h1 {color:rgb(33, 59, 59)}
+            table, th, td {
+                border: 1px solid darkslategray;
+                padding: 4px;
+            }
+            ul {
+                background-color: rgba(79, 65, 47, 0.5);
+                text-align: center;
+                font-size: larger;
+                padding: 10px;
+            }
+
+            li{
+                display: inline;
+                padding: 5px;
+            }
+            .centered {text-align: center;}
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <title>Resources and Contact</title>
+    </head>
+    <body>
+        <nav id="main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="informationform.html">Resources and Contact</a></li>
+            </ul>
+        </nav>
+        <!-- The table will be used to provide easy to find health websites/resources depending ont he condition the user is curious about-->
+        <h1 class="centered">Resources</h1>
+        <table class="center">
+        <tr>
+            <th></th>
+            <th scope="col"> Primary Information</th>
+            <th scope="col"> Additional Info</th>
+        </tr>
+        <tr>
+            <th scope="row">POTS</th>
+            <td><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/postural-orthostatic-tachycardia-syndrome-pots" target="_blank">POTS (Johns Hopkins)</a></td>
+            <td><a href="https://www.dysautonomiainternational.org/page.php?ID=30" target="_blank">POTS (Dysautonomia International)</a></td>
+        </tr>
+        <tr>
+            <th scope="row">hEDS</th>
+            <td><a href="https://www.ehlers-danlos.com/heds/#:~:text=What%20is%20hEDS%3F,different%20areas%20of%20the%20body." target="_blank">hEDS (EDS Society)</a></td>
+            <td><a href="https://my.clevelandclinic.org/health/diseases/17813-ehlers-danlos-syndrome" target="_blank">EDS (Cleveland Clinic)</a></td>
+        </tr>
+        </table>
+        <br>
+        <hr />
+        <h1 class="centered">Contact Me</h1>
+        <form action="#" method="get" id="contact-form" class="basic-forms">
+        <legend>Contact Information</legend>   
+        <fieldset>
+            <label>Name:<br />
+            <input type="text" name ="Name" autofocus /></label>
+            <br />
+            <label>Email:<br /> <input type="text" name="email" />
+            </label>
+            <br />
+            <label>Questions:</label> <br />
+            <textarea name="questions" id="textarea">Type your message here...</textarea>
+            <br />
+            <h3>Are you fine with a return email?</h3>
+            <input type="radio" name="yescontact" value="contactpref" /> Yes <br />
+            <input type="radio" name="nocontact" value="contactnopref" /> No
+            <br />
+            <label>If No, Provide Contact:</label><input type="text" name="altcontact" id="contact" /> 
+            <br />
+        </fieldset> 
+        </form>
+    <hr />
+    <p class="centered">
+        <a href="index.html">Home</a>
+        <a href="journal.html">Journal</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="informationform.html">Resources and Contact</a>
+    </p>
+    </body>
+</html>
