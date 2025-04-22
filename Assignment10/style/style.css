@@ -1,0 +1,67 @@
+
+body {
+    background-color: beige;
+    outline:10px solid rgba(79, 65, 47, 0.5);
+}
+ul {
+    background-color: rgba(79, 65, 47, 0.5);
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    margin: 0px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+hr{
+    margin: 0px;
+}
+li{
+    display: inline;
+    padding: 5px;
+}
+.stylelist{
+    display:list-item;
+    padding: 5px;
+    list-style-position: inside;
+    list-style: circle;
+}
+h1 {
+    color:darkslategrey;
+    text-decoration: underline;
+}
+#Journaltop{
+    background-color: rgba(79, 65, 47, 0.2);
+    padding: 10px;
+    margin: 0px;
+
+}
+.centered {text-align: center;}
+h2 {
+    color:rgb(47, 79, 79);
+    text-decoration: underline;
+}
+.first-line {font-style: italic;}
+.para {
+    text-align: left;
+    text-indent: 15px;
+}
+img{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 10px solid rgba(79, 65, 47, 0.5);
+}
+h3{color:darkslategray}
+h4{
+    color:rgb(29, 78, 78);
+    text-decoration: underline;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(79, 65, 47, 0.2);
+    padding: 10px;
+    margin: 0px;
+}
