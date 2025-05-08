@@ -1,0 +1,10 @@
+## Required Techniques:
+- The page I chose to add the style sheet to is my index.html page, because it hosts my personal story.  I chose to add it here because this page includes my story, which will be the focus of this assignment.
+- I added hover effects to each link on the page, allowing for more interactivity for whoever visited the site.  There is a total of two links outside of the header and footer, but it applies to those as well.
+- The external font that I used and self-hosted was the Domine font, found in my fonts folder in this assignment.  I applied it to the footer, trying to see if having the header and footer be different fonts would help with the overall look of my page.
+- I used the Merriweather font that was hosted on google fonts for my smaller headers, h3 specifically when leading into my story.  It is not that much of a difference from the h1 text but I prefered it for the smaller entries.  It is hosted on google fonts and put into the css style sheet.
+
+## Three Chosen Techniques
+- I used text decoration also on my links for the page.  I used the none classification to remove the default underline from links to help them look smoother.  I took the underline and added it to the hover, so users will know which link they are going to click.  This will help with using the headers and footers, since some of the links can be closer together.
+- Finally I am indenting text and editing the text to have the first letter be 5% bigger than the text that comes after during my story.  This is to help with readability and to find the start of paragraphs easier when zoomed out or also on smaller screens. This also allows minimal change in the visuals when reading through the pargraph.
+- I adjusted the spacing in my headers h1, h2, and h3.  The natural text style of a header made these patches harder to read for me, especially on smaller screens.  So I used minor adjustments with the em measurement in order to space them just enough apart without damaging readability.
