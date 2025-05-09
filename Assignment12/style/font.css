@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 400;
+    src:
+    url('./fonts/Domine-Regular.ttf') format('truetype'),
+    url('./fonts/Domine-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Domine';
+    font-style: bold;
+    font-weight: 700;
+    src:
+    url('./fonts/Domine-Bold.ttf') format('truetype'),
+    url('./fonts/Domine-VariableFont_wght.ttf') format('truetype');
+}
