@@ -2,6 +2,13 @@
 <html>
     <head>
         <title>Media Page</title>
+                <!-- Internet hosted font-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+                <!-- Self hosted font-->
+                <link rel="stylesheet" href="./style/font.css">
+                <link rel="stylesheet" href="./style/style.css">
         <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
         <style>
             body {background-color: beige;}
@@ -33,7 +40,8 @@
             </ul>
         </nav>
 
-        <div id="Self-Captured Media" class="centered">
+        <div id="Journaltop" class="centered">
+             <div id="Self-Captured Media" class="centered">
             <h1 class="centered"> Personal Media </h1>
             <p id="Personal Media" class ="description">
                 <span class="first-line">This is media I have captured &amp;/or made myself that are included in journal posts.</span>
@@ -41,8 +49,10 @@
             </br>
             </p>
         </div>
+        </div>
+        <br>
        <div id="Media" class="left">
-        <img src="./images/mobilityaids.jpeg" alt="An image of slippers, a red cane, and a blue rollator with a teddy bear on the seat on a balcony in the dark.  The mobility aids are placed in front of a rail, looking out at the unreachable ground below." title="My Progression" width="375" height="250"/>
+        <img src="./images/mobilityaids.jpeg" alt="An image of slippers, a red cane, and a blue rollator with a teddy bear on the seat on a balcony in the dark.  The mobility aids are placed in front of a rail, looking out at the unreachable ground below." title="My Progression" width="375" height="250" class="image"/>
     </div>
 </br>
 
@@ -52,8 +62,9 @@
             <span class="first-line">This is media from medical or onlines sources that allow free use to educate or be used in the journal.</span>
     </br>
 </br>
-            <span class="first-line"> The following media will be put in a journal post and is currently embedded here as a place holder.</span>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6bNFP9ubBT4?si=d_PS-lEEyhZQujQx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            <span class="first-line"> The following media will be put in a journal post and is currently embedded here as a place holder.</span> <br>
+            <div class="container"> <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/6bNFP9ubBT4?si=d_PS-lEEyhZQujQx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            </div>
 </br>
 </br>
             <audio src="./images/background.mp3" preload controls>
@@ -66,10 +77,10 @@
     </div>
 
 <hr />
-    <p class="centered">
-        <a href="index.html">Home</a>
-        <a href="journal.html">Journal</a>
-        <a href="gallery.html">Gallery</a>
+<p class="footer domine">
+        <a href="index.html">Home</a> &middot;
+        <a href="journal.html">Journal</a> &middot;
+        <a href="gallery.html">Gallery</a> &middot;
         <a href="informationform.html">Resources and Contact</a>
     </p>
     </body>

@@ -3,7 +3,13 @@
     <head> 
         <title>Journal</title>
         <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="./style/style.css">
+                <!-- Internet hosted font-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+                <!-- Self hosted font-->
+                <link rel="stylesheet" href="./style/font.css">
+                <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
         <nav id="main">
@@ -18,11 +24,9 @@
         <div id="Journaltop" class="centered">
         <h1 class="centered"> Journal Entries</h1>
         <p><span class="first-line">This page is made for each individual Journal Entry.  There are quick links or drop down, which will reduce clutter when further entries are made.</span>
-        <nav id="journalentries">
-            <a href="#Journal1">1</a> &middot;
-        </nav></p>  
+        </p>  
     <!-- Dropdown Menu, allowed for easier navigation.  Deciding between if I like the drop down or flat links better.-->
-        <div class="journail-entry dropdown"><a href="#">Dropdown Journals</a>
+        <div class="journail-entry dropdown"><a href="#">Journals</a>
             <div class="dropdown-content">
             <div class="dropdown-item">
                 <nav id="journalentires"><a href="#Journal1">1</a></nav>
@@ -162,7 +166,7 @@
         </div>
 <!--Footer, allowed to navigate from bottom of the page as needed.  Do not want to add too much to the page, minimal decoration.-->
     <hr />
-    <p class="footer">
+    <p class="footer domine">
         <a href="index.html">Home</a> &middot;
         <a href="journal.html">Journal</a> &middot;
         <a href="gallery.html">Gallery</a> &middot;

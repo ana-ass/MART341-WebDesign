@@ -1,0 +1,201 @@
+
+body {
+    background-color: beige;
+    outline:10px solid rgba(79, 65, 47, 0.5); 
+}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+ul {
+    background-color: rgba(79, 65, 47, 0.5);
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    margin: 0px;
+}
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:link {
+    color:blue;
+    text-decoration: none;
+}
+a:hover {
+    color: darkslategray;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+a:visited {
+    color:midnightblue;
+    font-style:underline;
+}
+hr{
+    margin: 0px;
+}
+li{
+    display: inline;
+    padding: 5px;
+}
+.stylelist {
+    display:list-item;
+    padding: 5px;
+    list-style-position: inside;
+    list-style: circle;
+}
+.merriweather-1 {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.storyparagraph {
+    text-indent: 1.0em;
+
+}
+h1 {
+    color:darkslategrey;
+    word-spacing: 0.15em;
+}
+#Journaltop{
+    background-color: rgba(79, 65, 47, 0.2);
+    padding: 10px;
+    margin: 0px;
+
+}
+.centered {
+    text-align: center;
+}
+h2 {
+    color:rgb(47, 79, 79);
+    text-decoration: underline;
+}
+.first-line {
+    font-style: italic;
+}
+.para {
+    text-align: left;
+    text-indent: 15px;
+}
+img {
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 10px solid rgba(79, 65, 47, 0.8);
+}
+h3 {
+    color:darkslategray;
+    text-decoration: underline;
+    text-align: center;
+    word-spacing: 0.26em;
+}
+h4 {
+    color:rgb(29, 78, 78);
+    text-decoration: underline;
+}
+.story-content p:first-letter { 
+    text-indent: 0;
+    font-size: 105%;
+}
+.footer {
+    text-align: center;
+    background-color: rgba(79, 65, 47, 0.2);
+    padding: 10px;
+    margin: 0px;
+}
+.headnav {
+    background-color: rgba(79, 65, 47, 0.5);
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    display: inline;
+}
+
+.domine {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+  }
+.journal-entry {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: darkslategray;
+    padding: 0.5em 0;
+}
+.journal-menu {
+    color: beige;
+    text-decoration: none;
+}
+.journal-menu:hover {
+    background-color: rgba(79, 65, 47, 0.2);
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1.5px solid rgba(79, 65, 47, 0.5);
+    margin: 0;
+    margin-top: 0em;
+    color: blue;
+    background-color: beige;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black
+}
+.dropdown:hover .dropdown-content {
+    display: block !important;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.2em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: darkslategray;
+}
